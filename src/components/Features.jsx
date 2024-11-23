@@ -115,7 +115,7 @@ From concept to deployment, I focus on delivering projects that combine innovati
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="videos/feature-1.mp4"
+          src="videos/vid5.mp4"
           title={
             <>
               Cyber Security Exper
@@ -131,7 +131,7 @@ From concept to deployment, I focus on delivering projects that combine innovati
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
-            src="videos/feature-2.mp4"
+            src="videos/vid2.mp4"
             title={
               <>
                 Network<b>ing</b>:
@@ -144,7 +144,7 @@ From concept to deployment, I focus on delivering projects that combine innovati
 
         <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
           <BentoCard
-            src="videos/feature-3.mp4"
+            src="videos/vid4.mp4"
             title={
               <>
                 Linux and Operating Syst<b>em</b>:
@@ -181,7 +181,7 @@ As a web developer, I specialize in creating responsive, scalable websites that 
 
         <BentoTilt className="bento-tilt_2">
           <video
-            src="videos/feature-5.mp4"
+            src="videos/vid3.mp4"
             loop
             muted
             autoPlay
