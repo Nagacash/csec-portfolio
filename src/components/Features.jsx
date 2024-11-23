@@ -90,7 +90,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
               }}
             />
             <TiLocationArrow className="relative z-20" />
-            <p className="relative z-20">coming soon</p>
+            <p className="relative z-20">Book a Call</p>
           </div>
         )}
       </div>
