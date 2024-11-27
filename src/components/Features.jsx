@@ -90,7 +90,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
               }}
             />
             <TiLocationArrow className="relative z-20" />
-            <p className="relative z-20">Book a Call</p>
+            <p className="relative z-20">coming soon</p>
           </div>
         )}
       </div>
@@ -99,23 +99,50 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
 };
 
 const Features = () => (
-  <section className="bg-black pb-52">
+  <section className="bg-black pb-52 flex">
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-        Web Development Expertise        </p>
+          Web Development Expertise        </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
 
-Next.js: Developing cutting-edge web applications with high performance and modern architecture.
-JavaScript: Bringing interactivity and dynamic functionality to the web.
-HTML & CSS: Designing structured, visually appealing, and user-centered interfaces with precision.
-From concept to deployment, I focus on delivering projects that combine innovation with functionality, tailored to meet client and user needs.
+          Next.js: Developing cutting-edge web applications with high performance and modern architecture.
+          JavaScript: Bringing interactivity and dynamic functionality to the web.
+          HTML & CSS: Designing structured, visually appealing, and user-centered interfaces with precision.
+          From concept to deployment, I focus on delivering projects that combine innovation with functionality, tailored to meet client and user needs.
+        </p>
+      </div>
+      <div className="px-5 py-32">
+        <p className="font-circular-web text-lg text-blue-50">
+          MY CERTIFICATES        </p>
+        <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
+
+          <a href="https://www.credly.com/users/maurice-holda">Click here - Verified by CREDLY</a>
         </p>
       </div>
 
+      <div className="px-5 py-32">
+        <p className="font-circular-web text-lg text-blue-50">
+          Why Choose Me?
+        </p> <br /> 
+        <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
+          In the ever-evolving landscape of digital threats, I bring a proactive and knowledgeable approach to securing systems and networks.
+
+          <br /> <br />
+
+          <span className="font-circular-web text-lg text-blue-50">Linux and Operating Systems: </span>  <br />Proficient in managing and securing  <br />Linux environments and other operating systems. <br />  <br /> 
+          General Security: <br /> Skilled in identifying vulnerabilities, applying best practices, and implementing effective defenses.
+          Basic Python Skills: Leveraging Python for automation, scripting, and solving cybersecurity challenges.
+        </p>
+      </div>
+
+
+
+
+
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="videos/vid5.mp4"
+          src="videos/vid6.mp4"
           title={
             <>
               Cyber Security Exper
@@ -131,7 +158,7 @@ From concept to deployment, I focus on delivering projects that combine innovati
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
-            src="videos/vid2.mp4"
+            src="videos/vid5.mp4"
             title={
               <>
                 Network<b>ing</b>:
@@ -157,7 +184,7 @@ From concept to deployment, I focus on delivering projects that combine innovati
 
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
-            src="videos/feature-4.mp4"
+            src="videos/vid2.mp4"
             title={
               <>
                 General Securi<b>ty</b>:
@@ -171,8 +198,8 @@ From concept to deployment, I focus on delivering projects that combine innovati
         <BentoTilt className="bento-tilt_2">
           <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
             <h1 className="bento-title special-font max-w-50 text-black">
-            
-As a web developer, I specialize in creating responsive, scalable websites that provide seamless user experiences. 
+
+              As a web developer, I specialize in creating responsive, scalable websites that provide seamless user experiences.
             </h1>
 
             <TiLocationArrow className="m-5 scale-[5] self-end" />

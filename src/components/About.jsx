@@ -29,9 +29,7 @@ const About = () => {
   return (
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
-        <p className="font-general text-sm uppercase md:text-[10px]">
-          WWhy Choose Me?
-        </p>
+        
 
         <AnimatedTitle
           title="Mauric<b>e </b>Holda <br /> portfolio <b>W</b>ebsite"
@@ -39,15 +37,9 @@ const About = () => {
         />
 
         <div className="about-subtext">
-          <p>
-          In the ever-evolving landscape of digital threats, I bring a proactive and knowledgeable approach to securing systems and networks.
-          </p>
+          
           <p className="text-black">
-         <br /> <br />
-
-Linux and Operating Systems:  <br />  <br />Proficient in managing and securing  <br />Linux environments and other operating systems. <br /> <br />
-General Security: <br /> Skilled in identifying vulnerabilities, applying best practices, and implementing effective defenses.
-Basic Python Skills: Leveraging Python for automation, scripting, and solving cybersecurity challenges.
+         
 
           </p>
         </div>
